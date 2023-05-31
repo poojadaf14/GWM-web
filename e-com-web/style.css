@@ -1,0 +1,157 @@
+.navbar {
+    font-size: 25px;
+    justify-content: space-evenly;
+  }
+  
+  .nav-item .nav-link {
+    padding: 0 40px;
+    color: black;
+    transition: 0.3s ease;
+  }
+  
+  .nav-item .nav-link:hover {
+    color: orange;
+  }
+  
+  section {
+    margin-top: 5px;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+
+  }
+  section img{
+    height: 100vh;
+    width: 70px;
+  }
+  
+  #main span {
+    color: orangered;
+  }
+  
+  #main h2 {
+    color: cadetblue;
+  }
+  
+  #main button {
+    background-color: chartreuse;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  
+  #main button:hover {
+    transition: 0.3s ease-in-out;
+    border: none;
+    background-color: aqua;
+  }
+  
+  #main img {
+    width: 50%;
+    height: 70vh;
+    background-size: cover;
+    background-position-x: 250px;
+    margin-top: 5%;
+  }
+  
+  #main1 {
+    margin-top: 5%;
+  }
+  
+
+ #brand1{
+   width: 90%;
+   padding: 2%;
+   margin-left: 20%;
+   justify-content: space-between;
+ }
+
+ #new img{
+  height: 80%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ }
+
+
+ .btn{
+  background-color: #fb6a6a;
+  color: white;
+ }
+
+ .btn:hover{
+  background-color: rgb(106, 223, 217);
+  color: white;
+ }
+ 
+.stock{
+  background-color: rgb(143, 234, 204);
+  color: black;
+}
+
+.row{
+
+justify-content: center;
+
+}
+
+.row img{
+  height: 30%;
+  width: 50%;
+}
+
+#five{
+  width: 50%;
+justify-content: center;
+align-items:center;
+text-align: center;
+margin-left: 20%;
+color: rgb(116, 12, 234);
+}
+
+#five button{
+  background-color: #ef3915;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 3%;
+  border:none;
+  border-radius: 10px;
+}
+
+#five button:hover{
+  background-color: blueviolet;
+  transition: 0.3s ease-in-out;
+}
+
+#banner{
+  background-image: url("https://img.freepik.com/free-vector/custom-made-clothing-isometric-illustration-with-dress-symbols_1284-28479.jpg?size=626&ext=jpg&ga=GA1.1.1657060491.1685266730&semt=ais");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+}
+.jumpsuits{
+  background-color: rgb(149, 235, 235);
+}
+
+.again{
+  margin-top: 30%;
+}
+.ftp h1{
+  margin: 30%;
+  margin-left: 40%;
+ background-color: black;
+ color: aliceblue;
+
+}
