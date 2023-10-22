@@ -1,0 +1,117 @@
+
+  
+  body {
+    background-color: #333;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    background-color: #f5850d;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    transition: background-color 0.3s;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+  }
+  
+  
+  nav {
+    background-color: #333;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    transition: color 0.3s;
+  }
+  
+ 
+  main {
+   
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(54, 53, 53, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+
+  h2 {
+    font-size: 30px;
+    margin-top: 1.5rem;
+    color: #f8f7f7;
+background-color: #f5850d;
+    text-align: center;
+  }
+
+  h2, p{
+    color: white;
+    font-size: 25px;
+  }
+  
+ 
+  .project {
+    margin-top: 2rem;
+    border: 2px solid #eeeeee;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #f5850d;
+    transition: background-color 0.3s, box-shadow 0.3s; 
+  }
+  
+  .project h3 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .project p {
+    margin-top: 1rem;
+  }
+  
+  .contact p{
+text-align: center;
+  }
+
+  .contact p a{
+    color: #eeeeee;
+  }
+
+  .contact p a:hover{
+    color: #2fd8ee;
+  }
+  
+  footer {
+    background-color: #dc6c1b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    transition: background-color 0.3s;
+    font-size: large;
+  }
+  
+ 
+  header:hover, nav a:hover, h2:hover, .project:hover, footer:hover {
+    background-color: #ff6600;
+    color: #fff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
